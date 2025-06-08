@@ -22,7 +22,7 @@ const FAQs = () => {
     {
       title: "How can I get a quote for my project?",
       answer:
-        "You can get a quote by contacting us via our Contact Form or emailing  arcticbluemedia@gmail.com with your project details.",
+        "You can get a quote by contacting us via  email  arcticbluemedia@gmail.com with your project details.",
     },
     {
       title: "What industries do you specialize in?",
