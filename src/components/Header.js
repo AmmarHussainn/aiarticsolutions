@@ -12,7 +12,7 @@ const navigation = [
   { name: 'Reviews', href: '#Reviews', current: false },
   { name: 'Pricing', href: '#Pricing', current: false },
   { name: 'FAQs', href: '#FAQs', current: false },
-  { name: '+1 (404) 353-0423', href: '#', current: false },
+  { name: '+1 (404) 664-6609', href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -51,7 +51,7 @@ export default function Header() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? ' bg-opacity-50 backdrop-blur-md text-white' : item.name === "+1 (404) 353-0423" ? 'text-white bg-[#4594ff] hover:bg-opacity-50 hover:backdrop-blur-md hover:text-[#ffffff] rounded-[18px] '
+                          item.current ? ' bg-opacity-50 backdrop-blur-md text-white' : item.name === "+1 (404) 664-6609" ? 'text-white bg-[#4594ff] hover:bg-opacity-50 hover:backdrop-blur-md hover:text-[#ffffff] rounded-[18px] '
                            :  'text-white hover:bg-opacity-50 hover:backdrop-blur-md hover:text-[#ffffff] ',
                           'rounded-md px-3 py-2 text-semibold font-medium'
                         )}
@@ -76,7 +76,7 @@ export default function Header() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : item.name == "+1 (404) 353-0423" ? 'text-white bg-[#4594ff] hover:bg-opacity-50 hover:backdrop-blur-md hover:text-[#ffffff] rounded-[18px] ' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.current ? 'bg-gray-900 text-white' : item.name == "+1 (404) 664-6609" ? 'text-white bg-[#4594ff] hover:bg-opacity-50 hover:backdrop-blur-md hover:text-[#ffffff] rounded-[18px] ' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                     'block rounded-md px-3 py-2 text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}

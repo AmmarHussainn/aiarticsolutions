@@ -118,7 +118,7 @@ const Footer = () => {
                   href="tel:+14043530423"
                   className="text-gray-300 hover:text-purple-400 text-sm font-medium transition-colors duration-300"
                 >
-                  +1 (404) 353-0423
+                  +1 (404) 664-6609
                 </a>
               </li>
             </ul>
